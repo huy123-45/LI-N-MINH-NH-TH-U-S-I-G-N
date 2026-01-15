@@ -8,7 +8,8 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   { label: 'Trang chủ', href: '#home' },
-  { label: 'Dịch vụ', href: '#services' },
+  { label: 'BĐS', href: '#real-estate' },
+  { label: 'Xây dựng', href: '#services' },
   { label: 'Thành viên', href: '#members' },
   { label: 'Dự án', href: '#projects' },
 ];

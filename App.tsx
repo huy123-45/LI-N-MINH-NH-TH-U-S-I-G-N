@@ -6,6 +6,7 @@ import ServiceGrid from './components/ServiceGrid';
 import MemberSection from './components/MemberSection';
 import ProjectGallery from './components/ProjectGallery';
 import ConsultationForm from './components/ConsultationForm';
+import RealEstateAdvisor from './components/RealEstateAdvisor';
 import Footer from './components/Footer';
 import AiAssistant from './components/AiAssistant';
 
@@ -31,6 +32,8 @@ const App: React.FC = () => {
         </div>
 
         <ServiceGrid />
+
+        <RealEstateAdvisor />
 
         <ConsultationForm />
         
@@ -75,7 +78,7 @@ const App: React.FC = () => {
               </div>
               <div className="text-left">
                 <p className="text-sm font-bold text-gray-900">Liên hệ ngay</p>
-                <p className="text-orange-600 font-extrabold text-xl">090 1234 567</p>
+                <p className="text-orange-600 font-extrabold text-xl">0779096025</p>
               </div>
             </div>
           </div>

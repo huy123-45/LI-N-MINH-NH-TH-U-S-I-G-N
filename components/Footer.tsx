@@ -58,11 +58,14 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm text-gray-500">
               <li className="flex items-start gap-3">
                 <i className="fas fa-map-marker-alt mt-1 text-orange-600"></i>
-                <span>Tòa nhà Innovation, CVPM Quang Trung, Quận 12, TP. Hồ Chí Minh</span>
+                <span>Trụ sở tại Phường Tân Thới Hiệp - Quận 12, TP. Hồ Chí Minh</span>
               </li>
               <li className="flex items-center gap-3">
                 <i className="fas fa-phone-alt text-orange-600"></i>
-                <span>1900 1234 56</span>
+                <div className="flex flex-col">
+                  <span>0779096025</span>
+                  <span className="text-[10px] text-gray-400 font-bold uppercase">(Số Zalo liên hệ)</span>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <i className="fas fa-envelope text-orange-600"></i>

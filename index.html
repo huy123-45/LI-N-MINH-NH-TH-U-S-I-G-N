@@ -1,49 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIÊN MINH NHÀ THẦU SÀI GÒN - Q12</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIÊN MINH THẦU THỢ SÀI GÒN 24/7 - Kết Nối Xây Dựng Uy Tín</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      body { font-family: 'Inter', sans-serif; }
+      .scroll-smooth { scroll-behavior: smooth; }
+      
+      /* Print Styles */
+      @media print {
+        header, footer, #ai-assistant-root, .no-print, button:not(.print-only) {
+          display: none !important;
+        }
+        body { background-color: white !important; }
+        .bg-gray-900 { background-color: white !important; color: black !important; border: 1px solid #eee; }
+        .text-white { color: black !important; }
+        section { page-break-inside: avoid; border-bottom: 1px solid #f0f0f0; margin-bottom: 2rem; padding-bottom: 2rem !important; }
+        .rounded-3xl, .rounded-2xl { border-radius: 0 !important; border: 1px solid #eee; }
+        .shadow-xl, .shadow-2xl { shadow: none !important; }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
 </head>
-<body class="bg-gray-100 text-gray-900">
-    <header class="bg-blue-900 text-white py-12 text-center shadow-lg">
-        <h1 class="text-3xl font-bold uppercase tracking-wide px-4">Liên Minh Nhà Thầu Sài Gòn</h1>
-        <p class="mt-2 text-blue-200 italic">"Thợ địa phương Quận 12 - Uy tín là vàng"</p>
-    </header>
-
-    <main class="max-w-4xl mx-auto py-10 px-4">
-        <div class="bg-white p-8 rounded-2xl shadow-xl border-t-8 border-blue-600 text-center">
-            <h2 class="text-2xl font-bold text-blue-900 mb-6">TRỤ SỞ TÂN THỚI HIỆP</h2>
-            <div class="space-y-4 text-lg text-left inline-block w-full">
-                <p>📍 <strong>Địa chỉ:</strong> HT 02, Phường Tân Thới Hiệp, Quận 12, TP.HCM.</p>
-                <p class="leading-relaxed text-gray-700">Chào bà con! Tôi là <strong>chú Huy</strong>. Nhóm thợ chúng tôi chuyên xây dựng, sửa chữa nhà cửa và nhận ký gửi nhà đất chính chủ tại khu vực Quận 12.</p>
-            </div>
-            
-            <div class="mt-8">
-                <a href="https://zalo.me/0779096025" class="inline-block bg-green-600 text-white px-10 py-4 rounded-full font-bold shadow-lg text-xl hover:bg-green-700 transition">
-                    <i class="fab fa-whatsapp mr-2"></i> NHẤN ĐỂ CHÁT ZALO VỚI CHÚ HUY
-                </a>
-            </div>
-        </div>
-
-        <div class="mt-10 bg-white p-4 rounded-2xl shadow-lg border-2 border-gray-200">
-            <h3 class="text-xl font-bold text-blue-800 mb-4 px-2"><i class="fas fa-map-marked-alt mr-2"></i> Vị trí trên bản đồ:</h3>
-            <div class="w-full h-80 rounded-xl overflow-hidden shadow-inner">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15674.394625298814!2d106.63414165!3d10.84198755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752989b533e45d%3A0x6b86b2b7a9f8f2e!2zVMOibiBUam9pIEhp4buHcCwgUXXhuq1uIDEyLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1705300000000!5m2!1svi!2s" 
-                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            <p class="mt-4 text-sm text-gray-500 italic text-center">Bà con có thể phóng to bản đồ để tìm đường đến HT 02 dễ hơn.</p>
-        </div>
-    </main>
-
-    <footer class="bg-gray-900 text-white py-10 text-center">
-        <p class="font-bold">© 2026 Liên Minh Nhà Thầu Sài Gòn</p>
-        <p class="text-gray-400 mt-2 text-sm px-4">Chuyên: Xây mới - Cải tạo - Sửa chữa - Ký gửi Nhà Đất Quận 12</p>
-        <p class="text-blue-300 mt-4 underline">Đại diện: Chú Huy (077.909.6025)</p>
-    </footer>
-</body>
+  <body class="bg-gray-50 text-gray-900 scroll-smooth">
+    <div id="root"></div>
+  </body>
 </html>

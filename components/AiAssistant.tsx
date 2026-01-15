@@ -7,7 +7,7 @@ const AiAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [input, setInput] = useState('');
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: 'Chào bạn! Tôi là Chuyên gia của LIÊN MINH THẦU THỢ SÀI GÒN 24/7. Tôi có thể giúp gì cho công trình của bạn hôm nay?' }
+    { role: 'model', text: 'Dạ chào quý khách! Em là trợ lý ảo của Liên minh thầu thợ và BĐS Sài Gòn. Quý khách cần em viết tin đăng bán nhà, tư vấn sửa chữa hay hỏi giá xây dựng ở TP.HCM thì cứ nhắn em nha!' }
   ]);
   const [isLoading, setIsLoading] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -49,8 +49,8 @@ const AiAssistant: React.FC = () => {
               <i className="fas fa-helmet-safety text-lg"></i>
             </div>
             <div>
-              <p className="font-bold text-sm">Chuyên Gia Sài Gòn 24/7 AI</p>
-              <p className="text-[10px] opacity-80">Hỗ trợ 24/7 • Phản hồi ngay</p>
+              <p className="font-bold text-sm">Trợ Lý Sài Gòn 24/7 AI</p>
+              <p className="text-[10px] opacity-80">Chuyên gia BĐS & Xây dựng • Online</p>
             </div>
           </div>
 
@@ -89,7 +89,7 @@ const AiAssistant: React.FC = () => {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyPress={(e) => e.key === 'Enter' && handleSend()}
-                placeholder="Hỏi về vật liệu, giá cả..."
+                placeholder="Nhập yêu cầu (VD: Viết tin bán nhà Q12...)"
                 className="flex-1 bg-gray-100 border-none rounded-xl px-4 py-2 text-sm focus:ring-2 focus:ring-orange-600 outline-none"
               />
               <button

@@ -3,6 +3,7 @@
   "description": "Nền tảng kết nối chủ đầu tư, nhà thầu và thợ lành nghề chuyên nghiệp trong lĩnh vực xây dựng và sửa chữa tại TP.HCM.",
   "requestFramePermissions": [
     "camera",
-    "microphone"
+    "microphone",
+    "geolocation"
   ]
 }
